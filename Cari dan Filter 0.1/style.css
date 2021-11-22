@@ -1,0 +1,72 @@
+#tulis_produk {
+    width: 90%;
+    padding: 7px;
+    border-width: 0.5px;
+    border-radius: 15px;
+    border-color: yellowgreen;
+}
+
+#cari_produk {
+   background-color: yellowgreen;
+   color: white;
+   width: 60px;
+   padding: 7px;
+   border: none;
+   border-radius: 7px;
+   cursor: pointer;
+}
+
+.filter_button {
+	width: 100%;
+}
+
+#filter {
+	position: absolute;
+  	bottom: 0;
+  	margin-bottom : 15px;
+  	width: 60px;
+  	background-color: white;
+  	border-color: yellowgreen;
+  	border-width: 0.5px;
+   	color: yellowgreen;
+  	padding: 7px;
+   	border-radius: 7px;
+
+   	/*visibility: hidden;*/
+}
+
+#filter_cb{
+	position: absolute;
+  	bottom: 0;
+  	margin-bottom : 15px;
+  	margin-left: -1px;
+  	width: 60px;
+  	height: 31px;
+   	border-radius: 7px;
+   	cursor: pointer;
+   	opacity: 0;
+}
+
+.filter_menu{
+	visibility: hidden;
+	position: absolute;
+  	bottom: 0;
+  	margin-bottom : 50px;
+  	width: 100%;
+}
+ul {
+	width: 15%;
+	border-radius: 15px;
+}
+
+li{
+	list-style: none;
+	background-color: yellowgreen;
+	border-radius: 7px;
+	padding: 5px;
+	margin: 3px;
+}
+
+#filter_cb:checked ~ .filter_menu{
+	visibility: visible;
+}
