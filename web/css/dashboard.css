@@ -21,8 +21,10 @@ nav {
 }
 
 .logo {
+  max-width: 6%;
+  max-height: 6%;
   position: relative;
-  padding-top: 1%;
+  padding-top: 1.4%;
   padding-left: 3.5%;
   padding-bottom: 1%;
 }
@@ -60,5 +62,19 @@ nav {
   left: 79%;
 }
 
+/* pading untuk input textfield*/
+input {
+  width: 250px;
+  padding: 1%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
 .searchIcon {
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  padding-right: 15%;
+  max-width: 70%;
+  max-height: 70%;
 }

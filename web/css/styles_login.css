@@ -1,8 +1,7 @@
 body {
-  background-color: #ffffff;
+  background: #1b55c2;
   font-family: "Ubuntu", sans-serif;
 }
-
 .main {
   background-color: #ffffff;
   width: 400px;
@@ -20,8 +19,16 @@ body {
   font-size: 30px;
 }
 
+.logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 form.form1 {
-  padding-top: 20px;
+  padding-top: 10%;
 }
 
 .un {
