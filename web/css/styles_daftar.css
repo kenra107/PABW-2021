@@ -90,7 +90,7 @@ a {
   color: #e1bee7;
   text-decoration: none;
 }
-
+/*View untuk mobile*/
 @media (max-width: 600px) {
   .main {
     border-radius: 0px;
